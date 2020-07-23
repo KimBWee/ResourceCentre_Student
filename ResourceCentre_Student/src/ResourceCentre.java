@@ -17,7 +17,7 @@ public class ResourceCentre {
 		while (option != 5) {
 
 			ResourceCentre.menu();
-			option = Helper.readInt("Enter an option > ");
+			option = Helper.readInt("Enter an number > ");
 
 			if (option == 1) {
 				// View all items
@@ -146,6 +146,8 @@ public class ResourceCentre {
 	public static String retrieveAllChromebook(ArrayList<Chromebook> chromebookList) {
 		String output = "";
 		// write your code here
+		//for (int i = 0; i < chromebookList.size(); i++) {
+			//output += String.format("%-84s\n", chromebookList.get(i).toString());
 		return output;
 	}
 	public static void viewAllChromebook(ArrayList<Chromebook> chromebookList) {
